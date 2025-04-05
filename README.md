@@ -8,7 +8,7 @@ Swoldex-2.0 is a comprehensive Loomian stat and move database designed for easy 
 
 ## 🌐 Live Site
 
-➡️ **[View Grimdex](https://liquidsamurott.github.io/Grimdex/)**
+➡️ **[View Swoldex]([https://liquidsamurott.github.io/Swoldex-2.0/])**
 
 ---
 
