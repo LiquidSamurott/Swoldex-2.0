@@ -78,6 +78,12 @@ var items = {
         name: "Ice Essence",
         description: "Holder's ice type moves do 20% more damage."
     },
+    
+    iciburst: {
+        name: "Iciburst",
+        description: "Holder's ice type moves do 20% more damage."
+    },
+
 
     kabungaCoffee: {
         name: "Kabunga Coffee",

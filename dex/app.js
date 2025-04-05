@@ -4,12 +4,11 @@ function load() {
     let header = document.createElement("h1");
     header.innerHTML = "Home";
     let description = document.createElement("p");
-    description.innerHTML = `Welcome to Swoldex! This is a compilation of data and PVP information for Loomian Legacy.
+    description.innerHTML = `Welcome to Grimdex! This is a compilation of data and PVP information for Loomian Legacy.
                             Use the navigation bar on the left or the search bar below to start learning more about the PVP Meta.`;
 
     let credits = document.createElement("p");
-    credits.innerHTML = `Huge thanks to Smogon for inspiration and directions on design choice.<br> Also huge thanks to i_eaturface
-    and SrRojo (thank you for the logo!) for help on data collection and design choice.<br> Site Created by Sioist`;
+    credits.innerHTML = `Site Created by LiquidSamurott`;
     credits.style.fontSize = "1em";
 
     main.appendChild(header);

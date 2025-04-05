@@ -1,7 +1,7 @@
 var loomians = {
     embit: {
         name: "Embit",
-        number: 01,
+        number: 1,
         types: ["Fire"],
         abilities: ["Awakening"],
         sAbility: ["Terrifying"],
@@ -23,7 +23,7 @@ var loomians = {
  
     rabburn: {
         name: "Rabburn",
-        number: 02,
+        number: 2,
         types: ["Fire"],
         abilities: ["Awakening"],
         sAbility: ["Terrifying"],
@@ -46,7 +46,7 @@ var loomians = {
  
     searknight: {
         name: "Searknight",
-        number: 03,
+        number: 3,
         types: ["Fire", "Metal"],
         abilities: ["Awakening"],
         sAbility: ["Terrifying"],
@@ -68,7 +68,7 @@ var loomians = {
  
     dripple: {
         name: "Dripple",
-        number: 04,
+        number: 4,
         types: ["Water"],
         abilities: ["Awakening"],
         sAbility: ["Power Napper"],
@@ -90,7 +90,7 @@ var loomians = {
  
     reptide: {
         name: "Reptide",
-        number: 05,
+        number: 5,
         types: ["Water"],
         abilities: ["Awakening"],
         sAbility: ["Power Napper"],
@@ -113,7 +113,7 @@ var loomians = {
  
     luminami: {
         name: "Luminami",
-        number: 06,
+        number: 6,
         types: ["Water", "Light"],
         abilities: ["Awakening"],
         sAbility: ["Power Napper"],
@@ -135,7 +135,7 @@ var loomians = {
  
     fevine: {
         name: "Fevine",
-        number: 07,
+        number: 7,
         types: ["Plant"],
         abilities: ["Awakening"],
         sAbility: ["Thriving Pace"],
@@ -157,7 +157,7 @@ var loomians = {
  
     felver: {
         name: "Felver",
-        number: 08,
+        number: 8,
         types: ["Plant"],
         abilities: ["Awakening"],
         sAbility: ["Thriving Pace"],
@@ -180,7 +180,7 @@ var loomians = {
  
     tahtab: {
         name: "Tahtab",
-        number: 09,
+        number: 9,
         types: ["Plant", "Brawler"],
         abilities: ["Awakening"],
         sAbility: ["Thriving Pace"],
@@ -1373,7 +1373,26 @@ var loomians = {
         evolvesFrom: "Geksplode",
         moveset: ["Lava Slash", "Fire Breath"]
     },
- 
+    eruptidonmagmadire: {
+        name: "Eruptidon-Magmadire",
+        number: 62,
+        types: ["Fire", "Earth"],
+        abilities: ["Pyro Pro"],
+        weight: 102,
+        image: "https://vignette.wikia.nocookie.net/loomian-legacy/images/f/f4/Eruptidon-model.png/revision/latest?cb=20191007054146",
+        tinyImage: "https://vignette.wikia.nocookie.net/loomian-legacy/images/a/a9/Eruptidon-menu.png/revision/latest?cb=20191010163657",
+        baseStats: {
+            hp: 81,
+            energy: 90,
+            attack: 89,
+            defense: 69,
+            attackR: 100,
+            defenseR: 84,
+            speed: 77
+        },
+        soulBurstsFrom: "Eruptidon",
+        moveset: ["Lava Slash", "Fire Breath"]
+    },
     craytal: {
         name: "Craytal",
         number: 63,
@@ -1620,7 +1639,8 @@ var loomians = {
         name: "Icigool",
         number: 73,
         types: ["Spirit", "Ice"],
-        abilities: ["Parting Gift"],
+        abilities: ["Parting Gift", "Expertise"],
+        sAbility: ["Power Jaw"],
         weight: 7,
         image: "https://vignette.wikia.nocookie.net/loomian-legacy/images/f/fb/Icigool-Yellow-model.png/revision/latest?cb=20191213232138",
         tinyImage: "https://vignette.wikia.nocookie.net/loomian-legacy/images/9/9d/Icigool-menu.png/revision/latest?cb=20191213014505",
@@ -1632,6 +1652,26 @@ var loomians = {
             attackR: 10,
             defenseR: 81,
             speed: 39
+        },
+        moveset: ["Startle", "Snowdozer", "Chomp", "Gain Drain", "Chilly Chomp", "Phantom Slash", "Mega Chomp", "Impersonate", "Blaze Chomp", "Energy Gift", "Health Gift", "Thunder Chomp", "Hypnotize", "Ill Will", "Barter"]
+    },
+
+    icigoolincarnate: {
+        name: "Icigool-Incarnate",
+        number: 73,
+        types: ["Spirit", "Ice"],
+        abilities: ["Party Trick"],
+        weight: 7,
+        image: "https://vignette.wikia.nocookie.net/loomian-legacy/images/d/d5/Icigool-Incarnate-Blue-model.png/revision/latest?cb=20240121035437",
+        tinyImage: "https://vignette.wikia.nocookie.net/loomian-legacy/images/8/86/Icigool-Incarnate-menu.png/revision/latest?cb=20240118025735",
+        baseStats: {
+            hp: 105,
+            energy: 99,
+            attack: 132,
+            defense: 104,
+            attackR: 44,
+            defenseR: 91,
+            speed: 50
         },
         moveset: ["Startle", "Snowdozer", "Chomp", "Gain Drain", "Chilly Chomp", "Phantom Slash", "Mega Chomp", "Impersonate", "Blaze Chomp", "Energy Gift", "Health Gift", "Thunder Chomp", "Hypnotize", "Ill Will", "Barter"]
     },
