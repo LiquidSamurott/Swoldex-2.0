@@ -4,8 +4,7 @@ function load() {
     let header = document.createElement("h1");
     header.innerHTML = "Home";
     let description = document.createElement("p");
-    description.innerHTML = `Welcome to Grimdex! This is a compilation of data and PVP information for Loomian Legacy.
-                            Use the navigation bar on the left or the search bar below to start learning more about the PVP Meta.`;
+    description.innerHTML = `Welcome to Swoldex 2.0! This is the next evolution of Loomian Legacy PvP tools — a refined and expanded fork of the original Swoldex. Swoldex 2.0 compiles in-depth data and PvP information for competitive Loomian battling, with improved UI, new tools, and up-to-date coverage of the meta. Use the navigation bar on the left or the search bar below to dive into the competitive scene and explore everything from stats and typings to advanced team strategies.`;
 
     let credits = document.createElement("p");
     credits.innerHTML = `Site Created by LiquidSamurott`;
