@@ -1,6 +1,6 @@
-# 📖 Grimdex
+# 📖 Swoldex-2.0
 
-Grimdex is a comprehensive Loomian stat and move database designed for easy access, competitive analysis, and expansion. Built with simplicity and extensibility in mind, Grimdex aims to be the go-to resource for players, developers, and fans of turn-based monster games.
+Swoldex-2.0 is a comprehensive Loomian stat and move database designed for easy access, competitive analysis, and expansion. Built with simplicity and extensibility in mind, Grimdex aims to be the go-to resource for players, developers, and fans of turn-based monster games.
 
 > 💡 Inspired by Smogon and Showdown, tailored for the world of Loomian Legacy and custom monster projects.
 
