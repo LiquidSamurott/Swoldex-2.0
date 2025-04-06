@@ -471,7 +471,7 @@ var loomians = {
     twilat: {
         name: "Twilat",
         number: 22,
-        types: ["Typeless"],
+        types: ["Simple"],
         abilities: ["Territorial", "Confidence"],
         sAbility: ["Neutralize"],
         weight: 10,
@@ -1529,7 +1529,7 @@ var loomians = {
     cafnotef: {
         name: "CafnoteF",
         number: 69,
-        types: ["Typeless"],
+        types: ["Simple"],
         abilities: ["Adorable", "Virtuoso"],
         sAbility: ["Tone Deaf"],
         weight: 57,
@@ -1551,7 +1551,7 @@ var loomians = {
     cafnotem: {
         name: "CafnoteM",
         number: 69,
-        types: ["Typeless"],
+        types: ["Simple"],
         abilities: ["Territorial", "Virtuoso"],
         sAbility: ["Brute Force"],
         weight: 57,
@@ -1573,7 +1573,7 @@ var loomians = {
     trumbull: {
         name: "Trumbull",
         number: 70,
-        types: ["Typeless"],
+        types: ["Simple"],
         abilities: ["Territorial", "Virtuoso"],
         sAbility: ["Brute Force"],
         weight: 187,
@@ -1595,7 +1595,7 @@ var loomians = {
     mootune: {
         name: "Mootune",
         number: 71,
-        types: ["Typeless"],
+        types: ["Simple"],
         abilities: ["Adorable", "Virtuoso"],
         sAbility: ["Tone Deaf"],
         weight: 146,

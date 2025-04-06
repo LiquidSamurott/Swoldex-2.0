@@ -506,7 +506,7 @@ var abilities = {
 
     illuminate: {
         name: "Illuminate",
-        description: "This Loomian's Typeless-type moves become Light type and have 20% more power alongside bypassing Total Eclipse."
+        description: "This Loomian's Simple-type moves become Light type and have 20% more power alongside bypassing Total Eclipse."
     },
 
     immunized: {
@@ -641,7 +641,7 @@ var abilities = {
 
     neutralize: {
         name: "Neutralize",
-        description: "This Loomian's moves are changed to be Typeless type and have 1.2x power."
+        description: "This Loomian's moves are changed to be Simple type and have 1.2x power."
     },
 
     nightmarish: {
@@ -681,7 +681,7 @@ var abilities = {
 
     overshadow: {
         name: "Overshadow",
-        description: "This Loomian's Typeless-type moves become Dark type and have 20% more power."
+        description: "This Loomian's Simple-type moves become Dark type and have 20% more power."
     },
 
     oxidize: {
