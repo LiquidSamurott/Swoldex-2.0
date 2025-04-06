@@ -1,6 +1,6 @@
 function load() {
     let main = document.getElementById("main");
-    let ability = abilities["meanSpirited"];
+    let ability = abilities["mysteriousCloak"];
     let header = document.createElement("h1");
     header.innerHTML = ability.name;
     let description = document.createElement("p");
