@@ -1,6 +1,6 @@
 var types = {
-    typeless: {
-        name: "Typeless",
+    simple: {
+        name: "Simple",
         weaknesses: ["mind", "brawler"],
         resistances: [],
         immunities: [],
@@ -42,7 +42,7 @@ var types = {
     ice: {
         name: "Ice",
         weaknesses: ["fire", "metal", "brawler"],
-        resistances: ["ice", "air", "typeless"],
+        resistances: ["ice", "air", "simple"],
         immunities: [],
         color: "#ABFFFF"
     },
@@ -82,7 +82,7 @@ var types = {
     metal: {
         name: "Metal",
         weaknesses: ["fire", "electric", "earth", "brawler"],
-        resistances: ["air", "bug", "metal", "ancient", "typeless", "ice", "mind"],
+        resistances: ["air", "bug", "metal", "ancient", "simple", "ice", "mind"],
         immunities: [],
         color: "#99ACBD"
     },
@@ -106,7 +106,7 @@ var types = {
     spirit: {
         name: "Spirit",
         weaknesses: ["light", "ancient", "spirit"],
-        resistances: ["dark", "toxic", "electric", "typeless"],
+        resistances: ["dark", "toxic", "electric", "simple"],
         immunities: ["brawler"],
         color: "#C6C6C6"
     },
