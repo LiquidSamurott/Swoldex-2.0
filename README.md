@@ -1,6 +1,6 @@
 # 📖 Swoldex-2.0
 
-Swoldex-2.0 is a comprehensive Loomian stat and move database designed for easy access, competitive analysis, and expansion. Built with simplicity and extensibility in mind, Grimdex aims to be the go-to resource for players, developers, and fans of turn-based monster games.
+Swoldex-2.0 is a comprehensive Loomian stat and move database designed for easy access, competitive analysis, and expansion. Built with simplicity and extensibility in mind, Swoldex-2.0 aims to be the go-to resource for players, developers, and fans of turn-based monster games.
 
 > 💡 Inspired by Smogon and Showdown, tailored for the world of Loomian Legacy and custom monster projects.
 
@@ -22,7 +22,7 @@ Swoldex-2.0 is a comprehensive Loomian stat and move database designed for easy 
 ## 🗂️ Project Structure
 
 ```
-Grimdex/
+Swoldex-2.0/
 ├── index.html              # Main web page
 ├── loomianFunctions.js     # Core battle and status logic
 ├── data/                   # Loomian and move data (coming soon)
@@ -36,8 +36,8 @@ Grimdex/
 
 1. **Clone or Download the Repository**:
    ```bash
-   git clone https://github.com/LiquidSamurott/Grimdex.git
-   cd Grimdex
+   git clone https://github.com/LiquidSamurott/Swoldex-2.0.git
+   cd Swoldex-2.0
    ```
 
 2. **Open Locally**:
@@ -85,7 +85,7 @@ MIT License — free to use, modify, and distribute with credit.
 - [Loomian Legacy](https://loomianlegacy.fandom.com/wiki/Loomian_Legacy_Wiki)
 - [Smogon University](https://www.smogon.com/)
 - [Pokémon Showdown](https://pokemonshowdown.com/)
-- UI and backend logic by [LiquidSamurott](https://github.com/LiquidSamurott)
+- UI and Base Structure by [SauceSoy](https://github.com/SauceSoy)
 
 ---
 
