@@ -1,6 +1,6 @@
 function load() {
     let main = document.getElementById("main");
-    let move = findMove("Ancient Instinct");
+    let move = findMove("Augment");
     let header = document.createElement("h1");
     header.innerHTML = move.name;
     let description = document.createElement("p");

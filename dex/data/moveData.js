@@ -57,19 +57,6 @@ var moves = {
         description: "Whiplash your foes as you fly past them at high speed. Lands critical hits more often.",
     },
 
-    ancientInstinct: {
-        name: "Ancient Instinct",
-        power: 0,
-        type: "Ancient",
-        mr: "Support",
-        ec: 25,
-        accuracy: "N/A",
-        aoe: false,
-        contact: false,
-        sound: true,
-        description: "Randomly boost either Melee Attack or Speed by two stages.",
-    },
-
     ancientRoar: {
         name: "Ancient Roar",
         power: 0,
@@ -81,6 +68,19 @@ var moves = {
         contact: false,
         sound: true,
         description: "Threaten the foe with a fierce roar that lowers their Melee Attack and Ranged Attack, then retreat to allow another Loomian on your team to take your place.",
+    },
+
+    augment: {
+        name: "Augment",
+        power: 0,
+        type: "Ancient",
+        mr: "Support",
+        ec: 25,
+        accuracy: "N/A",
+        aoe: false,
+        contact: false,
+        sound: true,
+        description: "For the next 5 turns, allies that enter the battle get a random stat boost.",
     },
 
     bamboozle: {

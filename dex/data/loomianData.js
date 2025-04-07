@@ -611,21 +611,44 @@ var loomians = {
         image: "https://vignette.wikia.nocookie.net/loomian-legacy/images/a/ab/Cynamoth-model.png/revision/latest/scale-to-width-down/620?cb=20190721103548",
         tinyImage: "https://vignette.wikia.nocookie.net/loomian-legacy/images/1/1d/Cynamoth-menu.png/revision/latest?cb=20190728090236",
         baseStats: {
-            hp: 60,
-            energy: 69,
-            attack: 45,
-            defense: 55,
-            attackR: 92,
-            defenseR: 80,
-            speed: 83
+            hp: 70,
+            energy: 80,
+            attack: 55,
+            defense: 85,
+            attackR: 98,
+            defenseR: 99,
+            speed: 88
         },
         evolvesFrom: "Propae",
         moveset: ["Mystic Breeze", "Gust", "Wing Slap", "Life Drain"]
     },
+
+    sumobito: {
+        name: "Sumobito",
+        number: 29,
+        types: ["Bug", "Brawler"],
+        abilities: ["Guru"],
+        sAbility: ["Double Strike"],
+        weight: 20,
+        image: "https://vignette.wikia.nocookie.net/loomian-legacy/images/b/be/Sumobito-model.png/revision/latest?cb=20220327201655",
+        tinyImage: "https://vignette.wikia.nocookie.net/loomian-legacy/images/8/8a/Sumobito-menu.png/revision/latest?cb=20220326211838",
+        baseStats: {
+            hp: 72,
+            energy: 80,
+            attack: 110,
+            defense: 106,
+            attackR: 51,
+            defenseR: 101,
+            speed: 55
+        },
+        evolvesFrom: "Propae",
+        moveset: ["Chop", "Bamboozle", "Bulk Up", "Parasitize"]
+    },
+ 
  
     twittle: {
         name: "Twittle",
-        number: 29,
+        number: 30,
         types: ["Air"],
         abilities: ["Early Bird", "Confidence"],
         sAbility: ["Rev Up"],
@@ -647,7 +670,7 @@ var loomians = {
  
     paratweet: {
         name: "Paratweet",
-        number: 30,
+        number: 31,
         types: ["Air"],
         abilities: ["Early Bird", "Confidence"],
         sAbility: ["Rev Up"],
@@ -670,7 +693,7 @@ var loomians = {
  
     avitross: {
         name: "Avitross",
-        number: 31,
+        number: 32,
         types: ["Air"],
         abilities: ["Early Bird", "Confidence"],
         sAbility: ["Rev Up"],
@@ -692,7 +715,7 @@ var loomians = {
  
     pyder: {
         name: "Pyder",
-        number: 32,
+        number: 33,
         types: ["Bug", "Toxic"],
         abilities: ["Webbing", "Apprehension"],
         sAbility: ["Coursing Venom"],
