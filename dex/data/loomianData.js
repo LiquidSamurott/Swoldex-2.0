@@ -737,7 +737,7 @@ var loomians = {
  
     swolder: {
         name: "Swolder",
-        number: 33,
+        number: 34,
         types: ["Bug", "Toxic"],
         abilities: ["Webbing", "Apprehension"],
         sAbility: ["Coursing Venom"],
@@ -759,7 +759,7 @@ var loomians = {
  
     antsee: {
         name: "Antsee",
-        number: 34,
+        number: 35,
         types: ["Bug", "Plant"],
         abilities: ["Mystery Toxins", "Woodsman"],
         sAbility: ["Drainage"],
@@ -867,6 +867,29 @@ var loomians = {
         evolvesFrom: "Coonucopia",
         moveset: ["Double Sting", "Slime", "Muck Blast"]
     },
+
+    terraclaw: {
+        name: "Terraclaw",
+        number: 92,
+        types: ["Bug"],
+        abilities: ["Odd Husk", "Pincer Trap"],
+        sAbility: ["Slick Shell"],
+        weight: 33,
+        image: "https://vignette.wikia.nocookie.net/loomian-legacy/images/0/09/Terraclaw-model.png/revision/latest?cb=20200817030441",
+        tinyImage: "https://vignette.wikia.nocookie.net/loomian-legacy/images/3/30/Terraclaw-menu.png/revision/latest/scale-to-width-down/35?cb=20200816182023",
+        baseStats: {
+            hp: 79,
+            energy: 72,
+            attack: 121,
+            defense: 106,
+            attackR: 20,
+            defenseR: 54,
+            speed: 43
+        },
+        evolvesFrom: "Coonucopia",
+        moveset: ["Clamp Claw", "Eerie Stare", "Cyclone Slam", "Body Slam", "Mega Chomp"]
+    },
+ 
  
     kleptyke: {
         name: "Kleptyke",
@@ -1681,7 +1704,7 @@ var loomians = {
 
     icigoolincarnate: {
         name: "Icigool-Incarnate",
-        number: 73,
+        number: 74,
         types: ["Spirit", "Ice"],
         abilities: ["Party Trick"],
         weight: 7,
@@ -2096,28 +2119,6 @@ var loomians = {
         moveset: ["Rough Up", "Sharpen", "Heavy Bash", "Mega Chomp"]
     },
 
-    terraclaw: {
-        name: "Terraclaw",
-        number: 92,
-        types: ["Bug"],
-        abilities: ["Odd Husk", "Pincer Trap"],
-        sAbility: ["Slick Shell"],
-        weight: 33,
-        image: "https://vignette.wikia.nocookie.net/loomian-legacy/images/0/09/Terraclaw-model.png/revision/latest?cb=20200817030441",
-        tinyImage: "https://vignette.wikia.nocookie.net/loomian-legacy/images/3/30/Terraclaw-menu.png/revision/latest/scale-to-width-down/35?cb=20200816182023",
-        baseStats: {
-            hp: 79,
-            energy: 72,
-            attack: 121,
-            defense: 106,
-            attackR: 20,
-            defenseR: 54,
-            speed: 43
-        },
-        evolvesFrom: "Coonucopia",
-        moveset: ["Clamp Claw", "Eerie Stare", "Cyclone Slam", "Body Slam", "Mega Chomp"]
-    },
- 
     duskit: {
         name: "Duskit",
         number: 192,
@@ -2178,7 +2179,7 @@ var loomians = {
             defenseR: 96,
             speed: 121
         },
-        moveset: ["Metal Swipes", "Power Siphon", "Dart Burst", "Energy Surge", "Ancient Instinct", "Metal Blast", "Thunderstrike", "Bash", "Tail Slap", "Tune-up"]
+        moveset: ["Metal Swipes", "Power Siphon", "Dart Burst", "Energy Surge", "Augment", "Metal Blast", "Thunderstrike", "Bash", "Tail Slap", "Tune-up"]
     },
 
     mutagon: {

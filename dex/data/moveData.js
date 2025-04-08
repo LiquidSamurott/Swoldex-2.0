@@ -1,9 +1,3 @@
-var movesRAW = [{ "name": "Accelerate", "type": "Simple", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 25, "DESCRIPTION": "Sharply increase your speed.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Aim", "type": "Simple", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 10, "DESCRIPTION": "Take a moment to focus your aim on the target. Your next move will not miss them.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Air Blade", "type": "Air", "mr": "Ranged", "power": 70, "accuracy": 1, "ec": 40, "DESCRIPTION": "Slash your opponent with a rapid air current. Lands critical hits more often.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Air Whip", "type": "Air", "mr": "Ranged", "power": 60, "accuracy": 1, "ec": 32, "DESCRIPTION": "Whiplash your foes as you fly past them at high speed. Lands critical hits more often.", "MM": false, "aoe": true, "contact": false, "sound": false, "priority": false }, { "name": "Ancient Roar", "type": "Ancient", "mr": "Support", "power": "N/A", "accuracy": 1, "ec": 70, "DESCRIPTION": "Threaten the foe with a fierce roar that lowers their Melee Attack and Ranged Attack, then retreat to allow another Loomian on your team to take your place.", "MM": false, "aoe": false, "contact": false, "sound": true, "priority": false }, { "name": "Bamboozle", "type": "Dark", "mr": "Melee", "power": 60, "accuracy": "N/A", "ec": 26, "DESCRIPTION": "Trick your opponent into letting their guard down, then attack when they least expect it. This attack almost never misses.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Battle Horn", "type": "Simple", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 60, "DESCRIPTION": "Raises your Melee Attack and Melee Defense, and cure the status ailments of any Loomian on the field.", "MM": false, "aoe": false, "contact": false, "sound": true, "priority": false }, { "name": "Beast's Slumber", "type": "Ancient", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 65, "DESCRIPTION": "Sleep for 3 turns. Each turn, recover 1/3 Health and 1/4 Energy. Defenses are boosted until you wake up.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Blaze Chomp", "type": "Fire", "mr": "Melee", "power": 65, "accuracy": 0.95, "ec": 32, "DESCRIPTION": "Bite the foe with fiery fangs. The target may flinch or be left with a burn.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Blood Drain", "type": "Dark", "mr": "Melee", "power": 20, "accuracy": 0.9, "ec": 34, "DESCRIPTION": "Bite down on the foe and begin to slowly leech away their life each turn.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Body Slam", "type": "Simple", "mr": "Melee", "power": 90, "accuracy": 1, "ec": 35, "DESCRIPTION": "Crash into your opponent with a full-body tackle.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Boulder Blast", "type": "Earth", "mr": "Ranged", "power": 25, "accuracy": 0.9, "ec": 22, "DESCRIPTION": "Hurl boulders at the foe two to five times in a row.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Brace", "type": "Simple", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 15, "DESCRIPTION": "Stiffen all the muscles in your body to raise your Melee Defense.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Brainwash", "type": "Mind", "mr": "Ranged", "power": 50, "accuracy": 1, "ec": 24, "DESCRIPTION": "Fill the target's mind with disorienting imagery. May leave the target dazed.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Briar Block", "type": "Plant", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 30, "DESCRIPTION": "Protect yourself by growing a thorny barrier that also hurts Loomians whose moves attempt to touch you this turn. May fail if used consecutively.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": true }, { "name": "Bug Bite", "type": "Bug", "mr": "Melee", "power": 30, "accuracy": 1, "ec": 20, "DESCRIPTION": "Restore half of the Health that you drain from the target.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Burn Up", "type": "Fire", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 25, "DESCRIPTION": "Kindle your flames to raise your Ranged Attack and burn traps placed on your side of the field.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Burrow", "type": "Earth", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 15, "DESCRIPTION": "Dig slightly into the ground to raise your defense.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Bush Whack", "type": "Plant", "mr": "Melee", "power": 65, "accuracy": 1, "ec": 35, "DESCRIPTION": "Surprise the opponent by ambushing them with uprooted shrubbery. This may cause them to flinch.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Charade", "type": "Dark", "mr": "Support", "power": "N/A", "accuracy": 1, "ec": 25, "DESCRIPTION": "Fool your opponent into thinking you are in distress, harshly lowering their Melee Defense.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Chase Down", "type": "Dark", "mr": "Melee", "power": 40, "accuracy": 1, "ec": 25, "DESCRIPTION": "Follow your target and perform and attack. If they attempt to retreat this turn, you will strike first with double the strength.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Chilly Chomp", "type": "Ice", "mr": "Melee", "power": 65, "accuracy": 0.95, "ec": 32, "DESCRIPTION": "Bite the foe with ice-cold fangs. The target may flinch or begin freezing.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Chomp", "type": "Dark", "mr": "Melee", "power": 45, "accuracy": 1, "ec": 22, "DESCRIPTION": "Bite the opponent with sharp fangs. May also make them flinch.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Coconut Bomb", "type": "Plant", "mr": "Ranged", "power": 70, "accuracy": 0.9, "ec": 38, "DESCRIPTION": "Launch explosive coconuts at the foe. This may leave them with a burn.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Corrode", "type": "Toxic", "mr": "Ranged", "power": 40, "accuracy": 1, "ec": 24, "DESCRIPTION": "Drop a corrosive substance on your opponents. This may also lower their Ranged Defense.", "MM": false, "aoe": true, "contact": false, "sound": false, "priority": false }, { "name": "Cyclone Slam", "type": "Air", "mr": "Melee", "power": 60, "accuracy": "N/A", "ec": 26, "DESCRIPTION": "Ride a storm and crash into the opponent. Almost never misses.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Dark Surge", "type": "Dark", "mr": "Ranged", "power": 80, "accuracy": 1, "ec": 40, "DESCRIPTION": "Eminate a dark, cruel wave of despair that damages your opponent and may cause them to flinch.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Dawdle", "type": "Simple", "mr": "Support", "power": "N/A", "accuracy": 1, "ec": 10, "DESCRIPTION": "Play around bashfully, causing your opponent(s) to let their guard down and lower their Melee Defense.", "MM": false, "aoe": true, "contact": false, "sound": false, "priority": false }, { "name": "Disperse", "type": "Light", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 25, "DESCRIPTION": "Split light into multiple beams to boost your Ranged Attack and accuracy.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Dissonant Chord", "type": "Simple", "mr": "Ranged", "power": 80, "accuracy": 1, "ec": 45, "DESCRIPTION": "Play a loud, harsh sound that damages the foe and prevents them from falling asleep.", "MM": false, "aoe": false, "contact": false, "sound": true, "priority": false }, { "name": "Dive Bomb", "type": "Dark", "mr": "Melee", "power": 50, "accuracy": 0.9, "ec": 26, "DESCRIPTION": "Strike the foe from above. May also knock their item off.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Dodge", "type": "Simple", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 20, "DESCRIPTION": "Prepare to dodge any attacks that come at you this turn. May fail if used consecutively.", "MM": true, "aoe": false, "contact": false, "sound": false, "priority": true }, { "name": "Double Sting", "type": "Bug", "mr": "Melee", "power": 25, "accuracy": 1, "ec": 28, "DESCRIPTION": "Sting the target twice consecutively, possibly infecting it with poison.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Ear Slap", "type": "Simple", "mr": "Melee", "power": 15, "accuracy": 0.85, "ec": 18, "DESCRIPTION": "With large ears, slap the target back and forth two to five times in a row.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Earthquake", "type": "Earth", "mr": "Melee", "power": 90, "accuracy": 1, "ec": 50, "DESCRIPTION": "Strike the ground with seismic force, causing a local earthquake that clobbers all surrounding Loomians in battle.", "MM": false, "aoe": true, "contact": false, "sound": false, "priority": false },
-{ "name": "Eerie Stare", "type": "Simple", "mr": "Support", "power": "N/A", "accuracy": 1, "ec": 25, "DESCRIPTION": "Spook the foe with a stare that lowers their Melee Defense and Speed.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Electroburst", "type": "Electric", "mr": "Ranged", "power": 75, "accuracy": 0.95, "ec": 50, "DESCRIPTION": "Blast the foe with high voltage. This may leave them paralyzed or with an electrical burn.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Elemental Burst", "type": "Ancient", "mr": "Ranged", "power": 80, "accuracy": 1, "ec": 48, "DESCRIPTION": "Blast the foe with the basic elements. They may become burned, paralyzed, or begin freezing.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Energize", "type": "Electric", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 25, "DESCRIPTION": "Energize yourself, boosting your Ranged Attack and Ranged Defense.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Energy Gift", "type": "Mind", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 50, "DESCRIPTION": "Sacrifice your remaining Health to fully replenish the Energy of the Loomian that takes your place.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Examine", "type": "Simple", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 15, "DESCRIPTION": "Watch your opponent to discover their weakpoint. Your next move is guaranteed to be critical.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Final Ruse", "type": "Spirit", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 40, "DESCRIPTION": "Prepare for the worst, readying yourself to take your opponent down if you are knocked out before your next turn.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Fire Breath", "type": "Fire", "mr": "Ranged", "power": 90, "accuracy": 1, "ec": 50, "DESCRIPTION": "Breathe fire on your foe. This may burn them.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Fire Slam", "type": "Fire", "mr": "Melee", "power": 60, "accuracy": 1, "ec": 26, "DESCRIPTION": "Shroud yourself in fire and charge into the target. May also burn the target.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Flaming Kick", "type": "Fire", "mr": "Melee", "power": 85, "accuracy": 0.9, "ec": 45, "DESCRIPTION": "Launch yourself towards the opponent with a fiery kick. Lands critical hits more often. May also burn the target.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Flash Pulse", "type": "Light", "mr": "Ranged", "power": 75, "accuracy": 1, "ec": 35, "DESCRIPTION": "Create a pulsing wave of light that hurts your opponent(s) and may leave them dazed.", "MM": false, "aoe": true, "contact": false, "sound": false, "priority": false }, { "name": "Flurry", "type": "Ice", "mr": "Ranged", "power": 40, "accuracy": 1, "ec": 22, "DESCRIPTION": "Drop a flurry of snow on your opponents. This may cause them to begin freezing.", "MM": false, "aoe": true, "contact": false, "sound": false, "priority": false }, { "name": "Foul Chant", "type": "Mind", "mr": "Ranged", "power": 110, "accuracy": 0.7, "ec": 45, "DESCRIPTION": "Cast a foul curse upon your foe. This may also leave them inflicted with a random status ailment.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Gain Drain", "type": "Dark", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 45, "DESCRIPTION": "Absorb the target's raised and lowered stats as Health. Absorbing more lowered stats than raised will instead hurt you.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Gamma Pulse", "type": "Light", "mr": "Ranged", "power": 80, "accuracy": 1, "ec": 50, "DESCRIPTION": "Emit a pulse of harsh light rays from beyond the visible spectrum that damage your opponents.", "MM": false, "aoe": true, "contact": false, "sound": false, "priority": false }, { "name": "Geyser", "type": "Water", "mr": "Ranged", "power": 75, "accuracy": 1, "ec": 50, "DESCRIPTION": "Unleash a blast of hot water and steam that has a chance to burn your target.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Ghostly Howl", "type": "Spirit", "mr": "Ranged", "power": 75, "accuracy": "N/A", "ec": 38, "DESCRIPTION": "Release a spine-chilling howl that damages the opponent, bypassing their fortifications and potentially leaving them dazed.", "MM": false, "aoe": false, "contact": false, "sound": true, "priority": false }, { "name": "Gloom Fangs", "type": "Dark", "mr": "Melee", "power": 75, "accuracy": 0.9, "ec": 36, "DESCRIPTION": "Bite down on the foe and swallow all the light in their soul. They cannot use Light-type moves for two turns.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Gloominous Roar", "type": "Simple", "mr": "Ranged", "power": 85, "accuracy": 1, "ec": 46, "DESCRIPTION": "When used by Tiklipse, this move becomes the same type(s) as it.", "MM": false, "aoe": false, "contact": false, "sound": true, "priority": false }, { "name": "Gnaw", "type": "Simple", "mr": "Melee", "power": 40, "accuracy": 1, "ec": 15, "DESCRIPTION": "Bite the target with a small amount of force.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Gobble Goop", "type": "Toxic", "mr": "Ranged", "power": 60, "accuracy": 1, "ec": 36, "DESCRIPTION": "Attack the foe with biohazardous waste. May leave them infected with poison. Drains some of their Energy.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Growl", "type": "Simple", "mr": "Support", "power": "N/A", "accuracy": 1, "ec": 10, "DESCRIPTION": "Declare your hostility to your opponent(s) with an angry growl, lowering their Melee Attack.", "MM": false, "aoe": true, "contact": false, "sound": false, "priority": false }, { "name": "Gust", "type": "Air", "mr": "Ranged", "power": 40, "accuracy": 0.95, "ec": 20, "DESCRIPTION": "Kick up a burst of wind and launch it at the foe. This may also clear any obstacles the foe may have placed on your side of the arena.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Harmonious Chord", "type": "Simple", "mr": "Ranged", "power": 60, "accuracy": 1, "ec": 35, "DESCRIPTION": "Play a delightful tone that damages the foe a little, and may put them to sleep.", "MM": false, "aoe": false, "contact": false, "sound": true, "priority": false }, { "name": "Headbutt", "type": "Simple", "mr": "Melee", "power": 60, "accuracy": 1, "ec": 25, "DESCRIPTION": "Charge into the opponent. This may lower their speed.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Health Gift", "type": "Mind", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 50, "DESCRIPTION": "Sacrifice your remaining Health to fully replenish the Health of the Loomian that takes your place.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Holy Slash", "type": "Metal", "mr": "Melee", "power": 75, "accuracy": 1, "ec": 32, "DESCRIPTION": "Slash the target with a sword imbued with light. Super effective against Dark-type opponents.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Hop Kick", "type": "Brawler", "mr": "Melee", "power": 60, "accuracy": 0.85, "ec": 30, "DESCRIPTION": "Hop into the air and land with a kick on the target. May also make the target flinch.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Hydro Slash", "type": "Water", "mr": "Melee", "power": 70, "accuracy": 1, "ec": 36, "DESCRIPTION": "Hack at the opponent with sharp claws. Lands critical hits more often.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Icicle Trap", "type": "Ice", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 45, "DESCRIPTION": "Suspend sharp icicles in the air on the opponent's side of the battlefield. When your opponent switches Loomians into battle, they will be damaged by the trap.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Impersonate", "type": "Spirit", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 45, "DESCRIPTION": "Impersonate the target. if they are about to use a damaging move, use the same move on them. This move tends to go first.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": true }, { "name": "Junglejutsu", "type": "Brawler", "mr": "Melee", "power": 90, "accuracy": 1, "ec": 55, "DESCRIPTION": "Pulverize the opponent with a calculated blow. Lands critical hits more often.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Lava Slash", "type": "Fire", "mr": "Melee", "power": 70, "accuracy": 1, "ec": 45, "DESCRIPTION": "Hack at the opponent with sharp claws. Lands critical hits more often. May leave the target with a burn.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Leaf Barrage", "type": "Plant", "mr": "Ranged", "power": 65, "accuracy": 0.9, "ec": 30, "DESCRIPTION": "Blast the target with sharp leaves. May lower the target's Melee Defense.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false },
-{ "name": "Life Drain", "type": "Plant", "mr": "Ranged", "power": 75, "accuracy": 1, "ec": 48, "DESCRIPTION": "Drain the target's Health, and restore half of that to yourself.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Light Dash", "type": "Light", "mr": "Melee", "power": 40, "accuracy": 1, "ec": 25, "DESCRIPTION": "Tackle the foe at nearly the speed of light. This move always goes first.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": true }, { "name": "Luminous Roar", "type": "Light", "mr": "Ranged", "power": 75, "accuracy": 0.9, "ec": 36, "DESCRIPTION": "Blast the foe with blinding light from your mouth that also prevents them from using Dark-type moves for two turns.", "MM": false, "aoe": false, "contact": false, "sound": true, "priority": false }, { "name": "Luster Loot", "type": "Light", "mr": "Ranged", "power": 50, "accuracy": 1, "ec": 35, "DESCRIPTION": "Steal light from the target's soul, draining their Health and restoring some to yourself.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Magma Block", "type": "Fire", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 30, "DESCRIPTION": "Protect yourself by creating a wall of magma that will hurt any Loomians who attempt to make contact with you this turn. May fail if used consecutively.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": true }, { "name": "Magma Burst", "type": "Fire", "mr": "Ranged", "power": 85, "accuracy": 1, "ec": 45, "DESCRIPTION": "Unleash a blast of Magma that has a chance to burn your target.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Magnify", "type": "Electric", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 25, "DESCRIPTION": "Intensify your power and focus to greatly boost your Ranged Attack.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Maroon", "type": "Water", "mr": "Ranged", "power": 70, "accuracy": 1, "ec": 45, "DESCRIPTION": "Wash the opponent away with an overwhelming amount of water. Drains a small amount of their Energy.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Mega Chomp", "type": "Dark", "mr": "Melee", "power": 80, "accuracy": 1, "ec": 40, "DESCRIPTION": "Bite the opponent with a powerful jaw and sharp fangs. May also make them flinch.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Mind's Eye", "type": "Mind", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 15, "DESCRIPTION": "Hone your senses to boost your Ranged Attack.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Muck Blast", "type": "Toxic", "mr": "Ranged", "power": 90, "accuracy": 1, "ec": 50, "DESCRIPTION": "Launch a ball of filthy debris at the opponent. This may poison them.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Muck Buck", "type": "Earth", "mr": "Melee", "power": 85, "accuracy": 0.95, "ec": 50, "DESCRIPTION": "Roll in the mud, then run around in a rampage, crashing into all adjacent Loomians while also dealing a small amount of damage to yourself.", "MM": false, "aoe": true, "contact": true, "sound": false, "priority": false }, { "name": "Mud Spatter", "type": "Earth", "mr": "Ranged", "power": 55, "accuracy": 1, "ec": 30, "DESCRIPTION": "Flick thick mud at the foe, damage them and lowering their speed.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Mystic Breeze", "type": "Bug", "mr": "Ranged", "power": 60, "accuracy": 1, "ec": 30, "DESCRIPTION": "Kick up a strange wind that batters the opponent. This may also raise your speed.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Nature's Force", "type": "Plant", "mr": "Ranged", "power": 90, "accuracy": 1, "ec": 50, "DESCRIPTION": "Draw power from nature and fire it at the target. May also lower the target’s Ranged Defense.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Nature's Rage", "type": "Plant", "mr": "Melee", "power": 70, "accuracy": "N/A", "ec": 55, "DESCRIPTION": "Recklessly unleash your fury on an opponent for a few turns. When finished, you will become dazed.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Nosedive", "type": "Air", "mr": "Melee", "power": 95, "accuracy": 1, "ec": 40, "DESCRIPTION": "Plummet straight down from high above the target and crash into them, taking some damage yourself.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Oppress", "type": "Spirit", "mr": "Ranged", "power": 65, "accuracy": 1, "ec": 44, "DESCRIPTION": "Relentlessly pester the foe. Deals more damage if the target is afflicted with a status ailment.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Parasitize", "type": "Bug", "mr": "Melee", "power": 80, "accuracy": 1, "ec": 55, "DESCRIPTION": "Leech away the target's Health and restore half to yourself.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Peace of Mind", "type": "Mind", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 25, "DESCRIPTION": "Seek mental serenity to boost your Ranged Attack and Ranged Defense.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Peck", "type": "Air", "mr": "Melee", "power": 35, "accuracy": 1, "ec": 15, "DESCRIPTION": "Swoop through the air and strike the target with a sharp beak.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Perch", "type": "Air", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 72, "DESCRIPTION": "Land and rest, restoring half of your maximum Health.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Pester", "type": "Bug", "mr": "Ranged", "power": 50, "accuracy": 1, "ec": 50, "DESCRIPTION": "Swarm your opponents, inflicting damage and lowering their Ranged Attack.", "MM": false, "aoe": true, "contact": false, "sound": false, "priority": false }, { "name": "Pestilence", "type": "Bug", "mr": "Ranged", "power": 35, "accuracy": 1, "ec": 50, "DESCRIPTION": "Swarm the target, damaging them for four or five turns and preventing them from escaping the fight.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Petal Pummel", "type": "Plant", "mr": "Melee", "power": 40, "accuracy": 1, "ec": 20, "DESCRIPTION": "Pelt the target with flower pedals.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Phantom Slash", "type": "Spirit", "mr": "Melee", "power": 70, "accuracy": 1, "ec": 36, "DESCRIPTION": "Swipe the target with spectral claws. Lands critical hits more often.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Pheroblast", "type": "Bug", "mr": "Ranged", "power": 90, "accuracy": 1, "ec": 50, "DESCRIPTION": "Launch a cloud of pheromones at the target. If targeting the foe, harsh chemicals will be used. If an ally, helpful chemicals will heal them.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Photosynthesis", "type": "Plant", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 72, "DESCRIPTION": "Convert sunlight into nutrients to restore your Health.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Pilfer", "type": "Dark", "mr": "Melee", "power": 60, "accuracy": 1, "ec": 32, "DESCRIPTION": "Strike the foe and, if not holding anything yourself, steal their item.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Pine Shot", "type": "Plant", "mr": "Ranged", "power": 25, "accuracy": 1, "ec": 25, "DESCRIPTION": "Shoot pine needles at the foe two to five times in a row.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Poison", "type": "Toxic", "mr": "Support", "power": "N/A", "accuracy": 0.9, "ec": 25, "DESCRIPTION": "Inflict the target with a toxicant that becomes more potent over time.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Poison Barbs", "type": "Toxic", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 25, "DESCRIPTION": "Scatter poisonous barbs at the feet of your foes. Loomians entering battle on their side will become poisoned.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Pounce ", "type": "Simple", "mr": "Melee", "power": 40, "accuracy": 1, "ec": 15, "DESCRIPTION": "Unexpectedly dash into the target.                                   ", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Power Focus", "type": "Simple", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 25, "DESCRIPTION": "Focus on your strengths, boosting your Melee Attack and Ranged Attack.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Primal Slash", "type": "Ancient", "mr": "Melee", "power": 80, "accuracy": 1, "ec": 45, "DESCRIPTION": "Swipe at the target with claws. Lands critical hits more often.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false },
-{ "name": "Provoke", "type": "Dark", "mr": "Support", "power": "N/A", "accuracy": 1, "ec": 25, "DESCRIPTION": "Aggravate the opponent. They will become too angry to use Support moves for three turns.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Punch", "type": "Brawler", "mr": "Melee", "power": 45, "accuracy": 1, "ec": 20, "DESCRIPTION": "Whack the target with a closed fist.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Quick Pounce", "type": "Simple", "mr": "Melee", "power": 40, "accuracy": 1, "ec": 25, "DESCRIPTION": "Lunge into the foe before they are able to move.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": true }, { "name": "Quick Punch", "type": "Brawler", "mr": "Melee", "power": 40, "accuracy": 1, "ec": 25, "DESCRIPTION": "Throws a punch faster than your opponent can react. This move tends to go first.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": true }, { "name": "Quicksand", "type": "Earth", "mr": "Ranged", "power": 35, "accuracy": 1, "ec": 50, "DESCRIPTION": "Trap the foe in quicksand, preventing them from retreating from battle and hurting them slowly over time.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Radiant Forecast", "type": "Light", "mr": "Ranged", "power": 85, "accuracy": 1, "ec": 38, "DESCRIPTION": "Foresee bright, intense sunlight that showers the opponent two turns later.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Raging Howl", "type": "Simple", "mr": "Ranged", "power": 120, "accuracy": 1, "ec": 62, "DESCRIPTION": "Roar furiously to deal massive damage to the opponent, but also damage yourself.", "MM": false, "aoe": false, "contact": false, "sound": true, "priority": false }, { "name": "Raging Tackle", "type": "Simple", "mr": "Melee", "power": 120, "accuracy": 1, "ec": 62, "DESCRIPTION": "Recklessly slam into the opponent, damaging yourself in the process.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Rant", "type": "Dark", "mr": "Ranged", "power": 55, "accuracy": 0.95, "ec": 32, "DESCRIPTION": "Shout in anger, damaging your opponents and reducing their Ranged Attack.", "MM": false, "aoe": true, "contact": false, "sound": true, "priority": false }, { "name": "Rapid Fire", "type": "Fire", "mr": "Ranged", "power": 20, "accuracy": 0.95, "ec": 32, "DESCRIPTION": "Launch three fireballs at the target, each having a small chance to burn them.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Repeating Tune", "type": "Simple", "mr": "Ranged", "power": 25, "accuracy": 1, "ec": 25, "DESCRIPTION": "Repeat the same musical notes, damaging the target two to three times.", "MM": false, "aoe": false, "contact": false, "sound": true, "priority": false }, { "name": "Resonate", "type": "Simple", "mr": "Ranged", "power": 90, "accuracy": 1, "ec": 50, "DESCRIPTION": "Produce an amplified sound that damages the target, and may boost your Ranged Attack.", "MM": false, "aoe": false, "contact": false, "sound": true, "priority": false }, { "name": "Return to Sender", "type": "Mind", "mr": "Ranged", "power": 0, "accuracy": 1, "ec": 25, "DESCRIPTION": "Unleash an attack on the Loomian who last struck you with a Ranged move this turn, with double the power.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": true }, { "name": "Revival", "type": "Spirit", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 72, "DESCRIPTION": "Recover half of your Health and temporarily void your Spirit typing.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Sap Plant", "type": "Plant", "mr": "Support", "power": "N/A", "accuracy": 0.9, "ec": 35, "DESCRIPTION": "Plant a special flower that slowly saps the foe's Health and restores it to you.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Savage Greed", "type": "Ancient", "mr": "Melee", "power": 75, "accuracy": 0.9, "ec": 45, "DESCRIPTION": "A savage attack. If used on an ally, you will completely knock them out in order to boost your own Melee Attack. The more Health they had, the better the boost.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Scapegoat", "type": "Simple", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 0, "DESCRIPTION": "At the cost of one quarter of your Health, throw out a decoy that the opponent must attack instead of you.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Scavenge", "type": "Air", "mr": "Melee", "power": 60, "accuracy": 1, "ec": 32, "DESCRIPTION": "Swoop down and strike the foe. May steal their item.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Searing Steel", "type": "Metal", "mr": "Melee", "power": 85, "accuracy": 1, "ec": 48, "DESCRIPTION": "Strike the target with a hot plate of steel. Ignores Water's resistance to Metal. May burn the target.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Shadow Sprint", "type": "Spirit", "mr": "Melee", "power": 40, "accuracy": 1, "ec": 25, "DESCRIPTION": "Dart at the target through the shadows and attack unexpectedly. This move goes first.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": true }, { "name": "Sharpen", "type": "Dark", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 25, "DESCRIPTION": "Sharpen your claws to boost your Melee Attack and accuracy.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Shine", "type": "Light", "mr": "Ranged", "power": 40, "accuracy": 1, "ec": 20, "DESCRIPTION": "Damage the foe with a bright light.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Singe", "type": "Fire", "mr": "Ranged", "power": 40, "accuracy": 1, "ec": 20, "DESCRIPTION": "Fire small flames at the target, possibly leaving it with a burn.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Slap Down", "type": "Dark", "mr": "Melee", "power": 65, "accuracy": 1, "ec": 45, "DESCRIPTION": "Hit the opponent. If they are holding an item, slap it to the ground. The item can no longer be used.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Slash", "type": "Simple", "mr": "Melee", "power": 75, "accuracy": 1, "ec": 36, "DESCRIPTION": "Hack at the opponent with sharp claws. Lands critical hits more often.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Sleet Shot", "type": "Ice", "mr": "Ranged", "power": 55, "accuracy": 0.95, "ec": 28, "DESCRIPTION": "Shoot shivering sleet at the opponent. May lower their speed.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Slime", "type": "Toxic", "mr": "Ranged", "power": 65, "accuracy": 1, "ec": 32, "DESCRIPTION": "Launch slime at the foe. This may poison them.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Snore Spores", "type": "Plant", "mr": "Support", "power": "N/A", "accuracy": 0.75, "ec": 25, "DESCRIPTION": "Put the foe to sleep with a cloud sleep-inducing spores.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Snowdozer", "type": "Ice", "mr": "Melee", "power": 30, "accuracy": 0.9, "ec": 24, "DESCRIPTION": "Pack yourself into a ball of snow and roll over the opponent five turns in a row. Pick up more snow each time, increasing damage.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Soft Water", "type": "Water", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 60, "DESCRIPTION": "Begin cleansing yourself of impurities. For the next five turns, recover one eighth of your Health.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Spare", "type": "Simple", "mr": "Melee", "power": 40, "accuracy": 1, "ec": 15, "DESCRIPTION": "Strike the foe, but leave them with at least one Health Point.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Spectral Burst", "type": "Spirit", "mr": "Ranged", "power": 80, "accuracy": 1, "ec": 45, "DESCRIPTION": "Launch a ball of ghostly energy at the target. May lower the foe's Ranged Defense.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Spray", "type": "Water", "mr": "Ranged", "power": 40, "accuracy": 1, "ec": 20, "DESCRIPTION": "Shoot a stream of water at the target.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Squawk", "type": "Simple", "mr": "Support", "power": "N/A", "accuracy": 1, "ec": 10, "DESCRIPTION": "Screech at the foe, lowering their Melee Defense.", "MM": false, "aoe": false, "contact": false, "sound": true, "priority": false }, { "name": "Stare", "type": "Simple", "mr": "Support", "power": "N/A", "accuracy": 1, "ec": 10, "DESCRIPTION": "Stare intimidatingly at the opponent(s), lowering their Melee Defense.", "MM": false, "aoe": true, "contact": false, "sound": false, "priority": false }, { "name": "Startle", "type": "Spirit", "mr": "Melee", "power": 30, "accuracy": 1, "ec": 15, "DESCRIPTION": "Strike the opponent when they don't expect it. May cause them to flinch.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false },
-{ "name": "Static Shock", "type": "Electric", "mr": "Ranged", "power": 40, "accuracy": 1, "ec": 20, "DESCRIPTION": "Shock the opponent with a small voltage, sometimes leaving them paralyzed.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Static Spores", "type": "Plant", "mr": "Support", "power": "N/A", "accuracy": 0.75, "ec": 25, "DESCRIPTION": "Paralyze the foe with a cloud of statically charged spores.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Steel Trap", "type": "Metal", "mr": "Support", "power": "N/A", "accuracy": 0.95, "ec": 35, "DESCRIPTION": "Trap your opponent on the field, preventing them from retreating from the fight.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Sting", "type": "Toxic", "mr": "Melee", "power": 15, "accuracy": 1, "ec": 10, "DESCRIPTION": "Strike the foe with a stinger, possible infecting them with poison.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Storm Summon", "type": "Electric", "mr": "Ranged", "power": 50, "accuracy": 1, "ec": 75, "DESCRIPTION": "Summon a great storm which hits everything around you. This move also has a good chance of paralyzing whatever it hits.", "MM": false, "aoe": true, "contact": false, "sound": false, "priority": false }, { "name": "Stretch", "type": "Simple", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 15, "DESCRIPTION": "Stretch your muscles to be better prepared to move.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Strike", "type": "Simple", "mr": "Melee", "power": 40, "accuracy": 1, "ec": 15, "DESCRIPTION": "Hit the target with tail, paw, wing, etc.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Stupefy", "type": "Spirit", "mr": "Ranged", "power": 30, "accuracy": 1, "ec": 25, "DESCRIPTION": "Scare the foe, potentially inducing paralysis.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Submerge", "type": "Water", "mr": "Melee", "power": 75, "accuracy": 1, "ec": 38, "DESCRIPTION": "Dive below the surface and hide there for a turn. Strike the target on the second turn, bypassing their fortifications.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Swipe", "type": "Simple", "mr": "Melee", "power": 60, "accuracy": 1, "ec": 22, "DESCRIPTION": "Swing sharp claws at the enemy.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Take Root", "type": "Plant", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 50, "DESCRIPTION": "Implant your roots in the ground to slowly regain Health each turn. This prevents you from leaving the fight.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Tase", "type": "Electric", "mr": "Melee", "power": 20, "accuracy": 1, "ec": 35, "DESCRIPTION": "Stun the enemy with a small jolt that always leaves them with paralysis.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Tease", "type": "Dark", "mr": "Support", "power": "N/A", "accuracy": 1, "ec": 20, "DESCRIPTION": "Makes the opponent feel self-conscious about the moves they use, preventing them from using the same move two turns in a row.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Thunder Chomp", "type": "Electric", "mr": "Melee", "power": 65, "accuracy": 0.95, "ec": 30, "DESCRIPTION": "Bite the foe with high-voltage fangs. The target may flinch or become paralyzed.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Thunder Crash", "type": "Electric", "mr": "Melee", "power": 90, "accuracy": 1, "ec": 38, "DESCRIPTION": "Electrify yourself and recklessly charge into your foe. You are damaged some in return.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Thunder Slam", "type": "Electric", "mr": "Melee", "power": 65, "accuracy": 1, "ec": 26, "DESCRIPTION": "While electrified, hurl yourself into your opponent. This may paralyze them.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Thunderstrike", "type": "Electric", "mr": "Ranged", "power": 90, "accuracy": 1, "ec": 50, "DESCRIPTION": "Blast the target with a powerful bolt of electricity. This may paralyze them.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Tone Barrier", "type": "Simple", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 20, "DESCRIPTION": "Protect yourself with a wall of inaudible sound waves. Ranged moves targeting you will cause a reverberation, damaging their user. May fail if used consecutively.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": true }, { "name": "Toxic Spores", "type": "Toxic", "mr": "Support", "power": "N/A", "accuracy": 0.75, "ec": 25, "DESCRIPTION": "Poison the foe with a cloud of toxic spores.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Toxic Tail", "type": "Toxic", "mr": "Melee", "power": 50, "accuracy": 1, "ec": 30, "DESCRIPTION": "Strike the target with your tail, possibly poisoning them. Lands critical hits more often.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Trip Root", "type": "Plant", "mr": "Ranged", "power": 0, "accuracy": 1, "ec": 30, "DESCRIPTION": "Set a trip wire made from tree root and trip the foe. More powerful against heavier targets.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Venom Chomp", "type": "Toxic", "mr": "Melee", "power": 65, "accuracy": 0.95, "ec": 32, "DESCRIPTION": "Bite the foe with venomous fangs. May cause them to flinch or infect them with a toxicant that gets more potent with time.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Water Bomb", "type": "Water", "mr": "Ranged", "power": 60, "accuracy": 1, "ec": 26, "DESCRIPTION": "Hurl a ball of water that explodes on contact. May leave the target dazed.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Web Shot", "type": "Bug", "mr": "Support", "power": "N/A", "accuracy": 0.9, "ec": 10, "DESCRIPTION": "Shoot web at the opponent to bind them up and lower their Speed.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Wing Slap", "type": "Air", "mr": "Melee", "power": 60, "accuracy": 1, "ec": 26, "DESCRIPTION": "Slap the foe with your wing.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Winter's Fury", "type": "Ice", "mr": "Melee", "power": 30, "accuracy": 1, "ec": 55, "DESCRIPTION": "Unleash two to three punches on the foe. A small amount of the damage you deal is returned to you as Energy.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }, { "name": "Wonder Herb", "type": "Plant", "mr": "Support", "power": "N/A", "accuracy": "N/A", "ec": 70, "DESCRIPTION": "Administer a special herb to your allied Loomians, both on and off the field, which cleanses them of their status ailments.", "MM": false, "aoe": false, "contact": false, "sound": false, "priority": false }, { "name": "Yeti's Wrath", "type": "Earth", "mr": "Melee", "power": 120, "accuracy": 1, "ec": 90, "DESCRIPTION": "Recklessly unleash your fury on an opponent for a few turns. When finished, you will become dazed.", "MM": false, "aoe": false, "contact": true, "sound": false, "priority": false }]
-
 var moves = {
     accelerate: {
         name: "Accelerate",
@@ -16,6 +10,122 @@ var moves = {
         contact: false,
         sound: false,
         description: "Sharply increase your speed.",
+    },
+
+    adaptiveAssaultSimple: {
+        name: "Adaptive Assault",
+        power: 75,
+        type: "Simple",
+        mr: "Melee",
+        ec: 30,
+        accuracy: 1,
+        aoe: false,
+        contact: true,
+        sound: false,
+        description: "Has +1 priority.",
+    },
+    adaptiveAssaultSpirit: {
+        name: "Adaptive Assault",
+        power: 75,
+        type: "Spirit",
+        mr: "Melee",
+        ec: 30,
+        accuracy: 1,
+        aoe: false,
+        contact: true,
+        sound: false,
+        description: "Has a 20% chance of leaving the target dazed.",
+    },
+
+    adaptiveAssaultAir: {
+        name: "Adaptive Assault",
+        power: 75,
+        type: "Air",
+        mr: "Ranged",
+        ec: 30,
+        accuracy: 1,
+        aoe: false,
+        contact: false,
+        sound: false,
+        description: "Has a 20% chance to flinch the target.",
+    },
+
+    adaptiveAssaultToxic: {
+        name: "Adaptive Assault",
+        power: 75,
+        type: "Ancient",
+        mr: "Ranged",
+        ec: 30,
+        accuracy: 1,
+        aoe: false,
+        contact: false,
+        sound: false,
+        description: "Has a 20% chance to badly poison the target.",
+    },
+
+    adaptiveAssaultAncient: {
+        name: "Adaptive Assault",
+        power: 75,
+        type: "Ancient",
+        mr: "Melee",
+        ec: 30,
+        accuracy: 1,
+        aoe: false,
+        contact: true,
+        sound: false,
+        description: "Has a 20% chance to raise the user's Melee Attack by one stat rank.",
+    },
+
+    adaptiveAssaultBug: {
+        name: "Adaptive Assault",
+        power: 75,
+        type: "Bug",
+        mr: "Melee",
+        ec: 30,
+        accuracy: 1,
+        aoe: false,
+        contact: true,
+        sound: false,
+        description: "Inflicts damage equal to 1/16th of the target's max health for three turns.",
+    },
+
+    adaptiveAssaultIce: {
+        name: "Adaptive Assault",
+        power: 75,
+        type: "Ice",
+        mr: "Melee",
+        ec: 30,
+        accuracy: 1,
+        aoe: false,
+        contact: true,
+        sound: false,
+        description: "Has a 20% chance to inflict frostbite on the opponent.",
+    },
+
+    adaptiveAssaultFire: {
+        name: "Adaptive Assault",
+        power: 75,
+        type: "Fire",
+        mr: "Ranged",
+        ec: 30,
+        accuracy: 1,
+        aoe: false,
+        contact: false,
+        sound: false,
+        description: "Has a 20% chance to inflict burn on the opponent.",
+    },
+
+    adaptiveAssaultWater: {
+        name: "Adaptive Assault",
+        power: 75,
+        type: "Water",
+        mr: "Ranged",
+        ec: 30,
+        accuracy: 1,
+        aoe: false,
+        contact: false,
+        sound: false,
+        description: "Clears all status conditions from the user and allies present. Becomes Melee or Ranged move depending on the user's Melee or Ranged Attack stat.",
     },
 
     aim: {
@@ -42,6 +152,19 @@ var moves = {
         contact: false,
         sound: false,
         description: "Slash your opponent with a rapid air current. Lands critical hits more often.",
+    },
+
+    airstrike: {
+        name: "Airstrike",
+        power: 125,
+        type: "Metal",
+        mr: "Ranged",
+        ec: 0,
+        accuracy: "N/A",
+        aoe: false,
+        contact: false,
+        sound: false,
+        description: "Fire 6 missiles at the opponent. Can only be used once.",
     },
 
     airWhip: {
@@ -83,6 +206,85 @@ var moves = {
         description: "For the next 5 turns, allies that enter the battle get a random stat boost.",
     },
 
+    apparition: {
+        name: "Apparition",
+        power: 90,
+        type: "Spirit",
+        mr: "Ranged",
+        ec: 55,
+        accuracy: "N/A",
+        aoe: false,
+        contact: false,
+        sound: true,
+        description: "Disappear without a trace. On the next turn, reappear suddenly and strike the foe with explosive light orbs. Super effective on Dark-type Loomians.",
+    },
+
+    aquaJaws: {
+        name: "Aqua Jaws",
+        power: 65,
+        type: "Water",
+        mr: "Melee",
+        ec: 38,
+        accuracy: 0.9,
+        aoe: false,
+        contact: True,
+        sound: true,
+        description: "Lowers the target's Melee Defense by 1 stat rank.",
+    },
+
+    
+    armorDown: {
+        name: "Armor Down",
+        power: 0,
+        type: "Metal",
+        mr: "Support",
+        ec: 25,
+        accuracy: "N/A",
+        aoe: false,
+        contact: false,
+        sound: false,
+        description: "The user's speed is raised by 2 stat ranks, but lose its Metal typing.",
+    },
+
+    baffle: {
+        name: "Baffle",
+        power: 0,
+        type: "Dark",
+        mr: "Support",
+        ec: 50,
+        accuracy: 1,
+        aoe: false,
+        contact: false,
+        sound: false,
+        description: "Lowers the target's Melee and Ranged Attack, then switch into another Loomian in waiting.",
+    },
+
+    bagOfTricks: {
+        name: "Bag of Tricks",
+        power: 0,
+        type: "Dark",
+        mr: "Support",
+        ec: 25,
+        accuracy: "N/A",
+        aoe: false,
+        contact: true,
+        sound: false,
+        description: "Use a random move.",
+    },
+
+    bait: {
+        name: "Bait",
+        power: 0,
+        type: "Simple",
+        mr: "Support",
+        ec: 26,
+        accuracy: "N/A",
+        aoe: false,
+        contact: true,
+        sound: false,
+        description: "Trick your opponents into using their moves on you, if able, instead of their original target.",
+    },
+
     bamboozle: {
         name: "Bamboozle",
         power: 60,
@@ -96,6 +298,32 @@ var moves = {
         description: "Trick your opponent into letting their guard down, then attack when they least expect it. This attack almost never misses.",
     },
 
+    bananaSplit: {
+        name: "Banana Split",
+        power: 0,
+        type: "Simple",
+        mr: "Support",
+        ec: 100,
+        accuracy: "N/A",
+        aoe: false,
+        contact: false,
+        sound: false,
+        description: "This move instantly faints the user and puts a banana peel on the opposing side.",
+    },
+
+    bananaSlam: {
+        name: "Banana Slam",
+        power: 95,
+        type: "Brawler",
+        mr: "Melee",
+        ec: 55,
+        accuracy: "N/A",
+        aoe: false,
+        contact: true,
+        sound: false,
+        description: "This move almost never misses, and has a 10% chance of leaving the target dazed.",
+    },
+
     baneofHaste: {
         name: "Bane of Haste",
         power: 0,
@@ -107,6 +335,47 @@ var moves = {
         contact: false,
         sound: false,
         description: "Cast an ancient spell to cause the slowest to move first, and the quickest to move last. Lasts 4 turns.",
+    },
+
+    banefulBash: {
+        name: "Baneful Bash",
+        power: 90,
+        type: "Toxic",
+        mr: "Melee",
+        ec: 50,
+        accuracy: 1,
+        aoe: false,
+        contact: true,
+        sound: false,
+        description: "Has a 10% chance of inflicting poison.",
+    },
+
+    barbTrap: {
+        name: "Barb Trap",
+        power: 0,
+        type: "Toxic",
+        mr: "Support",
+        ec: 50,
+        accuracy: "N/A",
+        aoe: false,
+        contact: false,
+        sound: false,
+        description: "Sets up Barbs on the opposing field; damage varies by layer.",
+    },
+
+    
+
+    barbs: {
+        name: "Barbs",
+        power: 0,
+        type: "Metal",
+        mr: "Support",
+        ec: 20,
+        accuracy: "N/A",
+        aoe: false,
+        contact: false,
+        sound: false,
+        description: "Sets up Barbs on the opposing field; damage varies by layer.",
     },
 
     barter: {
@@ -143,10 +412,24 @@ var moves = {
         ec: 50,
         accuracy: 1,
         aoe: false,
-        contact: false,
-        sound: true,
+        contact: true,
+        sound: false,
         description: "Use your armor to slam into the foe. Damage is based on your Melee Defense rather than Attack. May lower the foe's Melee Defense.",
     },
+
+    battleChime: {
+        name: "Battle Chime",
+        power: 0,
+        type: "Simple",
+        mr: "Support",
+        ec: 50,
+        accuracy: "N/A",
+        aoe: false,
+        contact: false,
+        sound: true,
+        description: "Halves the User's health to fully raise its Melee Attack.",
+    },
+
 
     battleHorn: {
         name: "Battle Horn",
@@ -172,6 +455,19 @@ var moves = {
         contact: false,
         sound: false,
         description: "Sleep for 3 turns. Each turn, recover 1/3 Health and 1/4 Energy. Defenses are boosted until you wake up.",
+    },
+
+    bequeath: {
+        name: "Bequeath",
+        power: 0,
+        type: "Ancient",
+        mr: "Support",
+        ec: 65,
+        accuracy: "N/A",
+        aoe: false,
+        contact: false,
+        sound: false,
+        description: "The user faints and gives all of its stat changes to the next Loomian in waiting.",
     },
 
     blazeChomp: {
