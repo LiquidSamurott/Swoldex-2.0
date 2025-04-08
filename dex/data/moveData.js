@@ -13,7 +13,7 @@ var moves = {
     },
 
     adaptiveAssaultSimple: {
-        name: "Adaptive Assault",
+        name: "Adaptive Assault - Simple",
         power: 75,
         type: "Simple",
         mr: "Melee",
