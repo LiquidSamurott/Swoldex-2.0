@@ -53,7 +53,7 @@ function generateTypeChart(container){
         div.textContent = type;
         div.style.backgroundColor = typeColors[type];
         div.addEventListener("click", () => {
-            window.location.href = window.location.origin + `/dex/types/${type.toLowerCase()}`;
+            window.location.href = window.location.origin + `/Swoldex-2.0/dex/types/${type.toLowerCase()}`;
         });        
         th.appendChild(div);
         headerRow.appendChild(th);
@@ -68,7 +68,7 @@ function generateTypeChart(container){
         headerDiv.textContent = types[i];
         headerDiv.style.backgroundColor = typeColors[types[i]];
         headerDiv.addEventListener("click", () => {
-            window.location.href = window.location.origin + `/dex/types/${types[i].toLowerCase()}`;
+            window.location.href = window.location.origin + `/Swoldex-2.0/dex/types/${types[i].toLowerCase()}`;
         });
         rowHeader.appendChild(headerDiv);
         row.appendChild(rowHeader);
