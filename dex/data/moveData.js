@@ -105,7 +105,7 @@
         adaptiveAssaultToxic: {
             name: "Adaptive Assault - Toxic",
             power: 75,
-            type: "Ancient",
+            type: "Toxic",
             mr: "Ranged",
             ec: 30,
             accuracy: 1,
@@ -337,7 +337,18 @@
             description: "Places a banana peel on the opponent's side of the field and instantly faints the user.",
         },
 
-    
+        banefulBash: {
+            name: "Baneful Bash",
+            power: 90,
+            type: "Toxic",
+            mr: "Support",
+            ec: 100,
+            accuracy: 1,
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "Places a banana peel on the opponent's side of the field and instantly faints the user.",
+        },
     
         baneofHaste: {
             name: "Bane of Haste",
