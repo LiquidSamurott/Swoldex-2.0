@@ -1,6 +1,6 @@
 function load() {
     let main = document.getElementById("main");
-    let loomian = loomians["icigoolincarnate"];
+    let loomian = loomians["icigool"];
     let header = document.createElement("h1");
     header.innerHTML = loomian.name;
     header.classList = "loomianHeader";

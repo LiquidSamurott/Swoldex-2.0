@@ -12,6 +12,122 @@
             description: "Sharply increase your speed.",
         },
     
+        adaptiveAssaultAir: {
+            name: "Adaptive Assault - Air",
+            power: 75,
+            type: "Air",
+            mr: "Ranged",
+            ec: 30,
+            accuracy: 1,
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "Has a 20% chance to flinch the target.",
+        },
+
+        adaptiveAssaultAncient: {
+            name: "Adaptive Assault - Ancient",
+            power: 75,
+            type: "Ancient",
+            mr: "Melee",
+            ec: 30,
+            accuracy: 1,
+            aoe: false,
+            contact: true,
+            sound: false,
+            description: "Has a 20% chance to raise the user's Melee Attack by one stat rank.",
+        },
+    
+        adaptiveAssaultBug: {
+            name: "Adaptive Assault - Bug",
+            power: 75,
+            type: "Bug",
+            mr: "Melee",
+            ec: 30,
+            accuracy: 1,
+            aoe: false,
+            contact: true,
+            sound: false,
+            description: "Inflicts damage equal to 1/16th of the target's max health for three turns.",
+        },
+
+        adaptiveAssaultFire: {
+            name: "Adaptive Assault - Fire",
+            power: 75,
+            type: "Fire",
+            mr: "Ranged",
+            ec: 30,
+            accuracy: 1,
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "Has a 20% chance to inflict burn on the opponent.",
+        },
+    
+        adaptiveAssaultIce: {
+            name: "Adaptive Assault - Ice",
+            power: 75,
+            type: "Ice",
+            mr: "Melee",
+            ec: 30,
+            accuracy: 1,
+            aoe: false,
+            contact: true,
+            sound: false,
+            description: "Has a 20% chance to inflict frostbite on the opponent.",
+        },
+
+        adaptiveAssaultSimple: {
+            name: "Adaptive Assault - Simple",
+            power: 75,
+            type: "Simple",
+            mr: "Melee",
+            ec: 30,
+            accuracy: 1,
+            aoe: false,
+            contact: true,
+            sound: false,
+            description: "Has +1 priority.",
+        },
+        adaptiveAssaultSpirit: {
+            name: "Adaptive Assault - Spirit",
+            power: 75,
+            type: "Spirit",
+            mr: "Melee",
+            ec: 30,
+            accuracy: 1,
+            aoe: false,
+            contact: true,
+            sound: false,
+            description: "Has a 20% chance of leaving the target dazed.",
+        },
+    
+        adaptiveAssaultToxic: {
+            name: "Adaptive Assault - Toxic",
+            power: 75,
+            type: "Ancient",
+            mr: "Ranged",
+            ec: 30,
+            accuracy: 1,
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "Has a 20% chance to badly poison the target.",
+        },
+    
+        adaptiveAssaultWater: {
+            name: "Adaptive Assault - Water",
+            power: 75,
+            type: "Water",
+            mr: "Ranged",
+            ec: 30,
+            accuracy: 1,
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "Clears all status conditions from the user and allies present. Becomes Melee or Ranged move depending on the user's Melee or Ranged Attack stat.",
+        },
+    
         aim: {
             name: "Aim",
             power: 0,
@@ -37,6 +153,20 @@
             sound: false,
             description: "Slash your opponent with a rapid air current. Lands critical hits more often.",
         },
+
+        airShot: {
+            name: "Air Shot",
+            power: 40,
+            type: "Air",
+            mr: "Ranged",
+            ec: 20,
+            accuracy: 1,
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "A basic Air-type attack.",
+        },
+
     
         airWhip: {
             name: "Air Whip",
@@ -49,6 +179,19 @@
             contact: false,
             sound: false,
             description: "Whiplash your foes as you fly past them at high speed. Lands critical hits more often.",
+        },
+
+        airstrike: {
+            name: "Airstrike",
+            power: 125,
+            type: "Air",
+            mr: "Ranged",
+            ec: 32,
+            accuracy: "N/A",
+            aoe: true,
+            contact: false,
+            sound: false,
+            description: "Fire half a dozen target-locked missiles at your opponents.",
         },
     
         ancientRoar: {
@@ -76,7 +219,85 @@
             sound: true,
             description: "For the next 5 turns, all allies that enter the battle get a random stat boost..",
         },
+
+        apparition: {
+            name: "Apparition",
+            power: 90,
+            type: "Spirit",
+            mr: "Ranged",
+            ec: 55,
+            accuracy: "N/A",
+            aoe: false,
+            contact: false,
+            sound: true,
+            description: "Disappear without a trace. On the next turn, reappear suddenly and strike the foe with explosive light orbs. Super effective on Dark-type Loomians.",
+        },
     
+        aquaJaws: {
+            name: "Aqua Jaws",
+            power: 65,
+            type: "Water",
+            mr: "Melee",
+            ec: 38,
+            accuracy: 0.9,
+            aoe: false,
+            contact: false,
+            sound: true,
+            description: "Lowers the target's Melee Defense by 1 stat rank.",
+        },
+
+        armorDown: {
+            name: "Aqua Jaws",
+            power: 65,
+            type: "Water",
+            mr: "Melee",
+            ec: 38,
+            accuracy: 0.9,
+            aoe: false,
+            contact: false,
+            sound: true,
+            description: "Lowers the target's Melee Defense by 1 stat rank.",
+        },
+
+        baffle: {
+            name: "Baffle",
+            power: 0,
+            type: "Dark",
+            mr: "Support",
+            ec: 50,
+            accuracy: 1,
+            aoe: false,
+            contact: false,
+            sound: true,
+            description: "Surprise the foe with an unexpected gesture, reducing their Melee and Ranged Attack, then retreat to allow an ally to take your place. Fails if the opponent has Staunch.",
+        },
+
+        bagofTricks: {
+            name: "Bag of Tricks",
+            power: 0,
+            type: "Dark",
+            mr: "Support",
+            ec: 25,
+            accuracy: 1,
+            aoe: false,
+            contact: false,
+            sound: true,
+            description: "Uses a random move.",
+        },
+
+        bait: {
+            name: "Bait",
+            power: 0,
+            type: "Simple",
+            mr: "Support",
+            ec: 30,
+            accuracy: "N/A",
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "Make opponents target you after using this move.",
+        },
+
         bamboozle: {
             name: "Bamboozle",
             power: 60,
@@ -89,6 +310,34 @@
             sound: false,
             description: "Trick your opponent into letting their guard down, then attack when they least expect it. This attack almost never misses.",
         },
+
+        bananaSlam: {
+            name: "Banana Slam",
+            power: 65,
+            type: "Water",
+            mr: "Melee",
+            ec: 38,
+            accuracy: 0.9,
+            aoe: false,
+            contact: true,
+            sound: false,
+            description: "Lowers the target's Melee Defense by 1 stat rank.",
+        },
+
+        bananaSplit: {
+            name: "Banana Split",
+            power: 0,
+            type: "Simple",
+            mr: "Support",
+            ec: 100,
+            accuracy: 1,
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "Places a banana peel on the opponent's side of the field and instantly faints the user.",
+        },
+
+    
     
         baneofHaste: {
             name: "Bane of Haste",
@@ -101,6 +350,19 @@
             contact: false,
             sound: false,
             description: "Cast an ancient spell to cause the slowest to move first, and the quickest to move last. Lasts 4 turns.",
+        },
+    
+        barbs: {
+            name: "Barbs",
+            power: 0,
+            type: "Metal",
+            mr: "Support",
+            ec: 20,
+            accuracy: "N/A",
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "Sets up Barbs on the opposing field; damage varies by layer.",
         },
     
         barter: {
@@ -137,10 +399,24 @@
             ec: 50,
             accuracy: 1,
             aoe: false,
-            contact: false,
-            sound: true,
+            contact: true,
+            sound: false,
             description: "Use your armor to slam into the foe. Damage is based on your Melee Defense rather than Attack. May lower the foe's Melee Defense.",
         },
+    
+        battleChime: {
+            name: "Battle Chime",
+            power: 0,
+            type: "Simple",
+            mr: "Support",
+            ec: 50,
+            accuracy: "N/A",
+            aoe: false,
+            contact: false,
+            sound: true,
+            description: "Halves the User's health to fully raise its Melee Attack.",
+        },
+    
     
         battleHorn: {
             name: "Battle Horn",
@@ -166,6 +442,19 @@
             contact: false,
             sound: false,
             description: "Sleep for 3 turns. Each turn, recover 1/3 Health and 1/4 Energy. Defenses are boosted until you wake up.",
+        },
+    
+        bequeath: {
+            name: "Bequeath",
+            power: 0,
+            type: "Ancient",
+            mr: "Support",
+            ec: 65,
+            accuracy: "N/A",
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "The user faints and gives all of its stat changes to the next Loomian in waiting.",
         },
     
         blazeChomp: {
@@ -529,7 +818,7 @@
             aoe: false,
             contact: false,
             sound: false,
-            description: "Fire 2-3 darts at the opponent. This may leave them dazed.",
+            description: "Fire 1-10 darts at the opponent.",
         },
     
         dawdle: {
