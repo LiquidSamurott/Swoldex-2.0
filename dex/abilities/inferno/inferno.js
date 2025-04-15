@@ -1,6 +1,6 @@
 function load() {
     let main = document.getElementById("main");
-    let ability = abilities["immunized"];
+    let ability = abilities["inferno"];
     let header = document.createElement("h1");
     header.innerHTML = ability.name;
     let description = document.createElement("p");

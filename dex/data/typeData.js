@@ -4,7 +4,7 @@ var types = {
         weaknesses: ["mind", "brawler"],
         resistances: [],
         immunities: [],
-        color: "#a2a7a8"
+        color: "#a8a196"
     },
 
     fire: {

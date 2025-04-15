@@ -1,6 +1,6 @@
 function load() {
     let main = document.getElementById("main");
-    let ability = abilities["battleArmor"];
+    let ability = abilities["bitterTouch"];
     let header = document.createElement("h1");
     header.innerHTML = ability.name;
     let description = document.createElement("p");

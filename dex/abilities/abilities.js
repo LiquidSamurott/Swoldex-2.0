@@ -24,7 +24,7 @@ function createLoomianRow(ability) {
     let abilityNameCell = document.createElement("td");
     let abilityLink = document.createElement("a");
     let abilityName = document.createElement("span");
-    abilityLink.href = basePath + "/dex/abilities/" + splitString(ability.name);
+    abilityLink.href = "/dex/abilities/" + splitString(ability.name);
     abilityName.innerHTML = ability.name;
     abilityLink.appendChild(abilityName);
     abilityNameCell.appendChild(abilityLink);
@@ -41,7 +41,7 @@ function createLoomianRow(ability) {
 function createAbilityDescriptionRow(ability) {
     let descriptionRow = document.createElement("td");
     let descriptionText = document.createElement("span");
-    descriptionText.innerHTML = ability.description;
+    descriptionText.innerHTML = ability.description.split('<br>')[0];
     descriptionRow.appendChild(descriptionText);
     descriptionRow.classList = "abilityRowDescription";
 

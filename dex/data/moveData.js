@@ -127,6 +127,19 @@
             sound: false,
             description: "Clears all status conditions from the user and allies present. Becomes Melee or Ranged move depending on the user's Melee or Ranged Attack stat.",
         },
+
+        aggravate: {
+            name: "Aggravate",
+            power: 30,
+            type: "Dark",
+            mr: "Ranged",
+            ec: 20,
+            accuracy: 1,
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "Cause your foe to suffer. Your Health is restored by half of the resulting damage.",
+        },
     
         aim: {
             name: "Aim",
@@ -241,22 +254,22 @@
             ec: 38,
             accuracy: 0.9,
             aoe: false,
-            contact: false,
-            sound: true,
+            contact: true,
+            sound: false,
             description: "Lowers the target's Melee Defense by 1 stat rank.",
         },
 
         armorDown: {
-            name: "Aqua Jaws",
-            power: 65,
-            type: "Water",
-            mr: "Melee",
+            name: "Armor Down",
+            power: 0,
+            type: "Metal",
+            mr: "Support",
             ec: 38,
-            accuracy: 0.9,
+            accuracy: "N/A",
             aoe: false,
             contact: false,
-            sound: true,
-            description: "Lowers the target's Melee Defense by 1 stat rank.",
+            sound: false,
+            description: "Increases the user's Speed by two stages; loses Metal typing.",
         },
 
         baffle: {
@@ -341,13 +354,13 @@
             name: "Baneful Bash",
             power: 90,
             type: "Toxic",
-            mr: "Support",
-            ec: 100,
+            mr: "Melee",
+            ec: 50,
             accuracy: 1,
             aoe: false,
-            contact: false,
+            contact: true,
             sound: false,
-            description: "Places a banana peel on the opponent's side of the field and instantly faints the user.",
+            description: "Has a chance to poison the target.",
         },
     
         baneofHaste: {
@@ -458,6 +471,19 @@
         bequeath: {
             name: "Bequeath",
             power: 0,
+            type: "Simple",
+            mr: "Support",
+            ec: 50,
+            accuracy: "N/A",
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "The user faints and gives all of its stat changes to the next Loomian in waiting.",
+        },
+
+        bitterCold: {
+            name: "Bitter Cold",
+            power: 0,
             type: "Ancient",
             mr: "Support",
             ec: 65,
@@ -465,20 +491,47 @@
             aoe: false,
             contact: false,
             sound: false,
-            description: "The user faints and gives all of its stat changes to the next Loomian in waiting.",
+            description: "Chill your target, giving them frostbite.",
         },
     
         blazeChomp: {
             name: "Blaze Chomp",
-            power: 65,
+            power: 70,
             type: "Fire",
             mr: "Melee",
-            ec: 32,
-            accuracy: 0.95,
+            ec: 35,
+            accuracy: 1,
             aoe: false,
             contact: true,
             sound: false,
             description: "Bite the foe with fiery fangs. The target may flinch or be left with a burn.",
+        },
+
+        
+        blazePunch: {
+            name: "Blaze Punch",
+            power: 70,
+            type: "Fire",
+            mr: "Melee",
+            ec: 35,
+            accuracy: 1,
+            aoe: false,
+            contact: true,
+            sound: false,
+            description: "Punch the foe with fiery fists. The target may become dazed or be left with a burn.",
+        },
+
+        blindspotBatter: {
+            name: "Blindspot Batter",
+            power: 70,
+            type: "Light",
+            mr: "Melee",
+            ec: 38,
+            accuracy: 1,
+            aoe: false,
+            contact: true,
+            sound: false,
+            description: "Blind the target and attack from behind, bypassing their fortifications.",
         },
     
         bloodDrain: {
@@ -493,6 +546,32 @@
             sound: false,
             description: "Bite down on the foe and begin to slowly leech away their life each turn.",
         },
+
+        bludgeon: {
+            name: "Bludgeon",
+            power: 65,
+            type: "Brawler",
+            mr: "Melee",
+            ec: 36,
+            accuracy: 1,
+            aoe: false,
+            contact: true,
+            sound: false,
+            description: "Whack your opponent with a blunt object. This may also lower their Melee Defense.",
+        },
+
+        bodyCrash: {
+            name: "Body Crash",
+            power: 80,
+            type: "Brawler",
+            mr: "Melee",
+            ec: 40,
+            accuracy: 1,
+            aoe: false,
+            contact: true,
+            sound: false,
+            description: "Hurl your entire body at the foe. Damage is based on your Melee Defense rather than Attack.",
+        },
     
         bodySlam: {
             name: "Body Slam",
@@ -505,6 +584,45 @@
             contact: true,
             sound: false,
             description: "Crash into your opponent with a full-body tackle.",
+        },
+
+        boilingPress: {
+            name: "Boiling Press",
+            power: 75,
+            type: "Fire",
+            mr: "Melee",
+            ec: 40,
+            accuracy: 1,
+            aoe: false,
+            contact: true,
+            sound: false,
+            description: "Pin down the foe and rapidly heat them to the point of evaporation. Super effective on Water-type Loomians.",
+        },
+
+        boneCrunch: {
+            name: "Body Slam",
+            power: 80,
+            type: "Toxic",
+            mr: "Melee",
+            ec: 46,
+            accuracy: 1,
+            aoe: false,
+            contact: true,
+            sound: false,
+            description: "Bite the foe with incredible force. Any positive boosts they may have gained in Melee Defense are ignored. May even reduce their Melee Defense.",
+        },
+
+        boomBash: {
+            name: "Boom Bash",
+            power: 80,
+            type: "Brawler",
+            mr: "Ranged",
+            ec: 45,
+            accuracy: 1,
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "From a distance, punch or kick hard to direct a shock wave at the foe. This may leave them dazed.",
         },
     
         boulderBlast: {
@@ -531,6 +649,32 @@
             contact: false,
             sound: false,
             description: "Stiffen all the muscles in your body to raise your Melee Defense.",
+        },
+
+        brainExercise: {
+            name: "Brain Exercise",
+            power: 0,
+            type: "Mind",
+            mr: "Support",
+            ec: 25,
+            accuracy: "N/A",
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "Complete challenging mental exercises to boost your Ranged Attack and Melee Defense.",
+        },
+
+        brainFreeze: {
+            name: "Brain Freeze",
+            power: 80,
+            type: "Ice",
+            mr: "Ranged",
+            ec: 44,
+            accuracy: 1,
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "Scourge the opponent with a painfully cold stimulus. This move is super effective on Mind-type Loomians.",
         },
     
         brainwash: {
@@ -571,6 +715,19 @@
             sound: false,
             description: "Protect yourself by growing a thorny barrier that also hurts Loomians whose moves attempt to touch you this turn. May fail if used consecutively.",
         },
+
+        buckUp: {
+            name: "Buck Up",
+            power: 0,
+            type: "Brawler",
+            mr: "Support",
+            ec: 20,
+            accuracy: "N/A",
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "Get hyped up for the fight. Increases your critical hit rate.",
+        },
     
         bugBite: {
             name: "Bug Bite",
@@ -583,6 +740,19 @@
             contact: true,
             sound: false,
             description: "Restore half of the Health that you drain from the target.",
+        },
+
+        bulkUp: {
+            name: "Bulk Up",
+            power: 0,
+            type: "Brawler",
+            mr: "Support",
+            ec: 25,
+            accuracy: "N/A",
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "Bulk up to boost your Melee Attack and Melee Defense.",
         },
     
         burnUp: {
@@ -635,6 +805,19 @@
             contact: false,
             sound: false,
             description: "Launch 2-3 paint cansisters at the target.",
+        },
+
+        carnivorousSnap: {
+            name: "Carnivorous Snap",
+            power: 100,
+            type: "Plant",
+            mr: "Melee",
+            ec: 0,
+            accuracy: "N/A",
+            aoe: false,
+            contact: true,
+            sound: false,
+            description: "Bite down on the foe and drain their Health. Your Health is restored by half of the damage dealt.",
         },
     
         cerebralSlash: {
@@ -740,6 +923,19 @@
             sound: false,
             description: "Clamp down on the opponent, drain their Health, and convert it into Energy for yourself.",
         },
+
+        clawber: {
+            name: "Clawber",
+            power: 100,
+            type: "Brawler",
+            mr: "Melee",
+            ec: 55,
+            accuracy: 1,
+            aoe: false,
+            contact: true,
+            sound: false,
+            description: "Recklessly clobber your foe with a rugged claw, hurting yourself a bit in the process.",
+        },
     
         claySlap: {
             name: "Clay Slap",
@@ -753,18 +949,44 @@
             sound: false,
             description: "Whack the target with a sticky limb. This also lowers their Speed.",
         },
-    
-        coconutBomb: {
-            name: "Coconut Bomb",
-            power: 70,
-            type: "Plant",
-            mr: "Ranged",
-            ec: 38,
-            accuracy: 0.9,
+
+        cleanUp: {
+            name: "Clean Up",
+            power: 0,
+            type: "Metal",
+            mr: "Support",
+            ec: 72,
+            accuracy: "N/A",
             aoe: false,
             contact: false,
             sound: false,
-            description: "Launch explosive coconuts at the foe. This may leave them with a burn.",
+            description: "If the opponent has placed any obstacles on your side of the battlefield, clear them to heal 50% of your Health.",
+        },
+
+        climateCannon: {
+            name: "Climate Cannon",
+            power: 90,
+            type: "Simple",
+            mr: "Ranged",
+            ec: 45,
+            accuracy: 1,
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "Launch a projectile at the foe which gathers the power of the current weather.",
+        },
+    
+        coconutBomb: {
+            name: "Coconut Bomb",
+            power: 90,
+            type: "Plant",
+            mr: "Melee",
+            ec: 45,
+            accuracy: 1,
+            aoe: false,
+            contact: true,
+            sound: false,
+            description: "Recklessly dunk on the opponent with an explosive coconut, damaging yourself some in the process. This may leave the opponent with a burn.",
         },
     
         completeDemolition: {
@@ -780,6 +1002,32 @@
             description: "Attempt to completely destroy the foe. On your next turn, you will be too exhausted to move.",
         },
     
+        conclusion: {
+            name: "Conclusion",
+            power: 0,
+            type: "Simple",
+            mr: "Support",
+            ec: 40,
+            accuracy: "N/A",
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "Start a song which concludes dramatically after three turns, causing all Loomians that listened to the entire song to faint instantly.",
+        },
+
+        confound: {
+            name: "Confound",
+            power: 40,
+            type: "Ancient",
+            mr: "Ranged",
+            ec: 18,
+            accuracy: 1,
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "Launch a small object targeted at the foe's head that does some damage, and may leave them dazed.",
+        },
+
         corrode: {
             name: "Corrode",
             power: 40,
@@ -791,6 +1039,32 @@
             contact: false,
             sound: false,
             description: "Drop a corrosive substance on your opponents. This may also lower their Ranged Defense.",
+        },
+
+        cosmicChime: {
+            name: "Cosmic Chime",
+            power: 100,
+            type: "Metal",
+            mr: "Ranged",
+            ec: 58,
+            accuracy: 1,
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "A mystical attack that bypasses the target's Ability.",
+        },
+
+        counterStance: {
+            name: "Counter Stance",
+            power: 70,
+            type: "Brawler",
+            mr: "Melee",
+            ec: 45,
+            accuracy: 1,
+            aoe: false,
+            contact: true,
+            sound: false,
+            description: "Counter the opponent's attack before they are able to strike. This move fails if the opponent is not preparing to attack you this turn.",
         },
     
         cycloneSlam: {
@@ -821,7 +1095,7 @@
     
         dartBurst: {
             name: "Dart Burst",
-            power: 35,
+            power: 15,
             type: "Metal",
             mr: "Ranged",
             ec: 40,
@@ -844,6 +1118,84 @@
             sound: false,
             description: "Play around bashfully, causing your opponent(s) to let their guard down and lower their Melee Defense.",
         },
+
+        daydream: {
+            name: "Daydream",
+            power: 0,
+            type: "Simple",
+            mr: "Support",
+            ec: 0,
+            accuracy: 1,
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "Get lost in thought. This move does nothing to help with the battle.",
+        },
+
+        dazzlingBarrage: {
+            name: "Dazzling Barrage",
+            power: 25,
+            type: "Light",
+            mr: "Melee",
+            ec: 25,
+            accuracy: 1,
+            aoe: false,
+            contact: true,
+            sound: false,
+            description: "Strike the foe two to five times.",
+        },
+
+        deepFreeze: {
+            name: "Deep Freeze",
+            power: 75,
+            type: "Ice",
+            mr: "Ranged",
+            ec: 40,
+            accuracy: 1,
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "An extremely frigid attack that is super-effective on Water-type Loomians.",
+        },
+
+        dejaVu: {
+            name: "Deja Vu",
+            power: 0,
+            type: "Mind",
+            mr: "Support",
+            ec: 0,
+            accuracy: 1,
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "Force the target into a mental loop, repeating the last move they used several times.",
+        },
+
+        dinoClaws: {
+            name: "Dino Claws",
+            power: 45,
+            type: "Ancient",
+            mr: "Melee",
+            ec: 24,
+            accuracy: 1,
+            aoe: true,
+            contact: false,
+            sound: false,
+            description: "Swipe at the foe with sharp claws. May also make them flinch.",
+        },
+
+        discordance: {
+            name: "Discordance",
+            power: 90,
+            type: "Bug",
+            mr: "Ranged",
+            ec: 50,
+            accuracy: 1,
+            aoe: false,
+            contact: false,
+            sound: true,
+            description: "Produce an awful sound that torments your for and may even lower their Ranged Defense.",
+        },
     
         disperse: {
             name: "Disperse",
@@ -857,6 +1209,20 @@
             sound: false,
             description: "Split light into multiple beams to boost your Ranged Attack and accuracy.",
         },
+
+        dissipate: {
+            name: "Dissipate",
+            power: 0,
+            type: "Mind",
+            mr: "Support",
+            ec: 30,
+            accuracy: "N/A",
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "Disappear from battle, allowing an ally to take your place. Tends to go last.",
+        },
+    
     
         dissonantChord: {
             name: "Dissonant Chord",
@@ -896,6 +1262,19 @@
             sound: false,
             description: "Prepare to dodge any attacks that come at you this turn. May fail if used consecutively.",
         },
+
+        doubleBeat: {
+            name: "Double Beat",
+            power: 40,
+            type: "Air",
+            mr: "Melee",
+            ec: 90,
+            accuracy: 0.9,
+            aoe: false,
+            contact: true,
+            sound: false,
+            description: "Attack the opponent twice. Lands critical hits more often.",
+        },
     
         doubleSting: {
             name: "Double Sting",
@@ -905,7 +1284,7 @@
             ec: 28,
             accuracy: 1,
             aoe: false,
-            contact: false,
+            contact: true,
             sound: false,
             description: "Sting the target twice consecutively, possibly infecting it with poison.",
         },
@@ -922,6 +1301,75 @@
             sound: false,
             description: "Strike the opponent using a tool in each hand. Lands critical hits more often.",
         },
+        
+        douse: {
+            name: "Douse",
+            power: 90,
+            type: "Water",
+            mr: "Ranged",
+            ec: 50,
+            accuracy: 1,
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "Splash the target with a deluge of water. If targeting a foe, a harsh torrent will hurt them; if targeting an ally, cleansing water will soothe and heal them.",
+        },
+
+        
+        downpour: {
+            name: "Downpour",
+            power: 0,
+            type: "Water",
+            mr: "Support",
+            ec: 25,
+            accuracy: "N/A",
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "Drench the battlefield with heavy rainfall for a few turns.",
+        },
+
+        
+        dracoBeam: {
+            name: "Draco Beam",
+            power: 130,
+            type: "Ancient",
+            mr: "Ranged",
+            ec: 60,
+            accuracy: 0.9,
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "Bombard the opponent with a burst of ancient energy using all your might. This will harshly lower your Ranged Attack.",
+        },
+
+        
+        drivingForce: {
+            name: "Driving Force",
+            power: 50,
+            type: "Brawler",
+            mr: "Melee",
+            ec: 40,
+            accuracy: 1,
+            aoe: false,
+            contact: true,
+            sound: false,
+            description: "Slam into the opponent and push them back, forcing them to retreat if able.",
+        },
+
+        drudge: {
+            name: "Drudge",
+            power: 0,
+            type: "Simple",
+            mr: "Support",
+            ec: 25,
+            accuracy: "N/A",
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "Push yourself to perform better, boosting your Melee Attack and Speed.",
+        },
+
     
         earSlap: {
             name: "Ear Slap",
@@ -961,6 +1409,72 @@
             sound: false,
             description: "Spook the foe with a stare that lowers their Melee Defense and Speed.",
         },
+
+        eggLob: {
+            name: "Egg Lob",
+            power: 100,
+            type: "Simple",
+            mr: "Support",
+            ec: 25,
+            accuracy: 1,
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "Spook the foe with a stare that lowers their Melee Defense and Speed.",
+        },
+    
+        eerieStare: {
+            name: "Eerie Stare",
+            power: 0,
+            type: "Simple",
+            mr: "Support",
+            ec: 25,
+            accuracy: 1,
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "Spook the foe with a stare that lowers their Melee Defense and Speed.",
+        },
+    
+        eerieStare: {
+            name: "Eerie Stare",
+            power: 0,
+            type: "Simple",
+            mr: "Support",
+            ec: 25,
+            accuracy: 1,
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "Spook the foe with a stare that lowers their Melee Defense and Speed.",
+        },
+    
+        eerieStare: {
+            name: "Eerie Stare",
+            power: 0,
+            type: "Simple",
+            mr: "Support",
+            ec: 25,
+            accuracy: 1,
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "Spook the foe with a stare that lowers their Melee Defense and Speed.",
+        },
+    
+        eerieStare: {
+            name: "Eerie Stare",
+            power: 0,
+            type: "Simple",
+            mr: "Support",
+            ec: 25,
+            accuracy: 1,
+            aoe: false,
+            contact: false,
+            sound: false,
+            description: "Spook the foe with a stare that lowers their Melee Defense and Speed.",
+        },
+    
     
         electroburst: {
             name: "Electroburst",
