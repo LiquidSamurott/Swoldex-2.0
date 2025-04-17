@@ -24,7 +24,7 @@ function createLoomianRow(ability) {
     let abilityNameCell = document.createElement("td");
     let abilityLink = document.createElement("a");
     let abilityName = document.createElement("span");
-    abilityLink.href = "/dex/abilities/" + splitString(ability.name);
+    abilityLink.href = basePath + "dex/abilities/" + splitString(ability.name) + "/";
     abilityName.innerHTML = ability.name;
     abilityLink.appendChild(abilityName);
     abilityNameCell.appendChild(abilityLink);
